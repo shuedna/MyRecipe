@@ -1,0 +1,26 @@
+{
+    "name": "MyRecipes",
+    "displayName": "MyRecipes",
+    "version": "0.0.1",
+    "description": "A simple recipe book ",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Daniel Shue",
+    "license": "",
+    "dependencies": {
+        "cordova-android": "^6.2.3",
+        "cordova-browser": "^4.1.0",
+        "cordova-plugin-whitelist": "^1.3.2"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-whitelist": {}
+        },
+        "platforms": [
+            "android",
+            "browser"
+        ]
+    }
+}
